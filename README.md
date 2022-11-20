@@ -15,23 +15,23 @@ Link of the tutorial : [https://www.youtube.com/watch?v=F_oOtaxb0L8](https://www
 - Enforces clean code and clear project structure by giving you a series of building blocks
 - Makes building complex applications easy
 
-## Commande a effectuer :
+## Commande à effectuer :
 
 ```bash
 npm run start:dev
 ```
 
-## Les differents requetes a effectue pour manipuler le back-end
+## Les différentes requêtes a effectué pour manipuler le back-end
 
 > Pour l’instant aucune BDD est mise en place, on manipule un tableau d’objet “Product”
 > 
 
-Permet d’ajouter un produit et renvoie l’ID du produit sous format JSON, requete en POST
+Permet d’ajouter un produit et renvoie l’ID du produit sous format JSON, requête en POST
 
 localhost:3000/products
 
 <aside>
-❗ Dans le body on doit ajouter ceci avant d’envoyer la requete
+❗ Dans le body, on doit ajouter ceci avant d’envoyer la requête
 
 </aside>
 
@@ -45,25 +45,25 @@ localhost:3000/products
 
 ---
 
-Permet de recuperer TOUS les produits en JSON, requete GET
+Permet de récupérer TOUS les produits en JSON, requête GET
 
 localhost:3000/products/
 
 ---
 
-Permet de recuper UN seul produit, on doit donner l’id du produit, requete GET
+Permet de récupérer UN seul produit, on doit donner l’id du produit, requête GET
 
 localhost:3000/products/<ID PRODUT HERE>
 
 ---
 
-Permet d’update un produit, on doit donner l’ID du produit, requete en PATCH
+Permet d’update un produit, on doit donner l’ID du produit, requête en PATCH
 
 localhost:3000/products/<ID PRODUT HERE>
 
 ---
 
-Permet de supprimer un produit, on doit donner l’ID du produit, requete en DELETE
+Permet de supprimer un produit, on doit donner l’ID du produit, requête en DELETE
 
 localhost:3000/products/<ID PRODUT HERE>
 
